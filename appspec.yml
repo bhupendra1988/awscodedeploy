@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: / 
-    destination: /opt/apache-tomcat-7.0.96/webapps
+    destination: /opt/tomcat-7.0.96/webapps
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies.sh
